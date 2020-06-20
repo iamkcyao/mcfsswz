@@ -25,6 +25,10 @@ zabbix_get -s ZabbixServer -k spectrum.stats[appID,[appID]]
 ```
 ![](https://i.imgur.com/8uub6BL.jpg)
 
-5. Create host from Zabbix Web or import host with ImportHost.xml
-	 when you use web to add host , you need put a Macro value
+5. Import template use monitor_cloudflare_templates.xml
+
+6. Create host from Zabbix Web or import host with ImportHost.xml
+	 when you use web to add host , you need select  template and setting a Macro and spectrum appID value.
 	 ![](https://i.imgur.com/azlyWxP.png)
+7. Get status success!
+	 ![](https://i.imgur.com/zyeERhp.png)
